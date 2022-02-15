@@ -7,6 +7,9 @@ services:
     restart: always
     env_file:
       - .env
+    volumes:
+      - ./pg_data:/var/lib/postgresql
+      - ./foret_protectrice.sql:/docker-entrypoint-initdb.d/foret_protectrice.sql
     ports:
       - '5432:5432'
   # pgAdmin instance
