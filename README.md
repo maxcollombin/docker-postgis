@@ -13,7 +13,6 @@ Docker-compose default instance to run PostGIS and pgAdmin in docker containers
 
 - https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5
 - https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-compose-e1607f6f882f
-- https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5
 
 ## Hint💡
 
