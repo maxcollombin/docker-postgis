@@ -7,6 +7,7 @@ Docker-compose default instance to run PostGIS and pgAdmin in docker containers
 ## To Do
 
 - add docker volumes
+- add sql scripts to load data
 
 ## References
 
