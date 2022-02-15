@@ -18,5 +18,5 @@ Docker-compose default instance to run PostGIS and pgAdmin in docker containers
 
 to get containers ip run:
 
-- docker-compose ps -a
+- docker ps -a
 - docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_id>
