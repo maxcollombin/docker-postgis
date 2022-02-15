@@ -2,7 +2,12 @@
 
 ## Description
 
-Docker-compose default instance to run PostGIS and pgAdmin in docker containers
+Docker-compose default instance to run PostGIS and pgAdmin4 in docker containers
+
+
+## Setup
+1. Copy the given sample env file and adapt it to your environment: `cp .env.sample .env`    
+2. Run `docker-compose up --detach` to start the composition.    
 
 ## References
 
