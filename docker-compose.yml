@@ -9,6 +9,7 @@ services:
       - .env
     ports:
       - '5432:5432'
+  # pgAdmin instance
   pgadmin:
     image: dpage/pgadmin4
     container_name: pgadmin4
