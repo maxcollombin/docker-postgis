@@ -15,7 +15,7 @@ https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-
 
 ## Hint💡
 
-to get conatiners ip run:
+to get containers ip run:
 
-docker-compose ps -a
-docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_id>
+- docker-compose ps -a
+- docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_id>
