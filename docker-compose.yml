@@ -6,7 +6,7 @@ volumes:
 services:
   # postgis instance
   postgis:
-    image: postgis/postgis #postgis/postgis:14-3.2-alpine
+    image: postgis/postgis:14-3.2-alpine #postgis/postgis
     container_name: postgis
     environment:
       - POSTGRES_DB=${PG_DATABASE:-postgres}
