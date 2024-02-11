@@ -6,7 +6,7 @@ Docker-compose default instance to run PostGIS and pgAdmin4 in docker containers
 
 ## Setup
 
-1. Copy the given sample env file and adapt it to your environment: `cp .env.sample .env`    
+1. Copy the given sample env file and adapt it to your environment: `cp .env.sample .env`
 2. Run `docker compose up -d` to start the composition.
 3. You can then access the container by running `docker exec -it <container_id> /bin/bash` and `psql -U <username> -d <database_name>` to access the database. pgaAdmin is available at `http://localhost:5050` with the credentials you set in the `.env` file.
 
