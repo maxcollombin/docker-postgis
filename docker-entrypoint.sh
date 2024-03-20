@@ -12,7 +12,7 @@ psql -U postgres -c "CREATE DATABASE ${POSTGRES_DB};"
 
 # Create the roles
 
-psql -U postgres -c "CREATE ROLE rolename;"
+psql -U postgres -c "CREATE ROLE ${ROLE_NAME};"
 
 # Restore the dump file
 
